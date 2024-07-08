@@ -1,0 +1,1035 @@
+.header{
+    background-color: #0a2239;
+    height: 90px;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    position: relative;
+    left: 0%;
+}
+.cart{
+    font-size: 40px;
+    height: 40px;
+    margin: 4px;
+    position: relative;
+    left: 4px;
+    top: 0px;
+}
+.shop{
+    position: relative;
+    left: -60px;
+    top: 50px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+span{
+    border-radius: 8px;
+    background-color: white;
+    color: #0a2239;
+}
+#border:hover{
+    border: 2px solid white;
+}
+#border{
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 9px;
+    left: -20px;
+    display: inline-block;
+    padding-left: 8px;
+}
+.loc{
+    position: relative;
+    top: 29px;
+}
+.dt{
+    position: relative;
+    left: 14px;
+}
+.pak{
+    position: relative;
+    left: 14px;
+    font-weight: bolder;
+}
+.searchBar{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left:0px;
+    border: border-box;
+}
+.select{
+    height: 40px;
+    width: 60px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+input{
+    height: 40px;
+    width: 550px;
+}
+input:hover{
+    border-color: rgb(247, 190, 83);
+    border-width: 3px;
+}
+.select:hover{
+    background-color: orange;
+}
+.mg{
+    background-color: orange;
+    height: 38px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#mg{
+    color: white;
+    background-color: orange;
+    position: relative;
+    top: 4px;
+}
+.language{
+    position: relative;
+    left: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 30px;
+}
+.sign{
+    position: relative;
+    left: 50px;
+    top: 17px;
+    display: flex;
+}
+.signIn{
+    position: relative;
+    top: 9px;
+    left: 5px;
+    font-size: 26px;
+}
+#para{
+    font-weight: bolder;
+    margin: 0%;
+    font-size: 18px;
+}
+.para{
+    margin: 0%;
+}
+.ro{
+    display: flex;
+    flex-direction: column;
+    white-space: none;
+    position: relative;
+    top: 25px;
+    left: 75px;
+    height: 50px;
+}
+.cartLogo{
+    font-size: 30px;
+    position: relative;
+    /* left: 110px; */
+    /* top: 28px; */
+    margin: 0%;
+}
+#cartLogo{
+    display: flex;
+    position: relative;
+    left: 110px;
+    height: 50px;
+    top: 28px;
+}
+.cartText{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    /* left: 113px; */
+    top: 8px;
+    margin: 0%;
+}
+.hovering :hover{
+    border: 2px solid white;
+}
+.hovering{
+    width: 100px;
+}
+#none:hover{
+    border: none;
+}
+.none:hover{
+    border: none;
+}
+.ro:hover{
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.cartLogo:hover{
+    border: none;
+}
+.cartText:hover{
+    border: none;
+}
+#cartLogo:hover{
+    border: 2px solid white;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    height: 40px;
+}
+nav{
+    background-color: #132e32;
+    height: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+}
+.nav{
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 4px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav:hover{
+     border: 1px solid white;
+}
+.bodyMain{
+    background-image: url(sofa\ 3.png);
+    background-size: cover;
+}
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.navLast{
+    margin-right: 25px;
+    margin-left: 0px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 420px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navLast:hover{
+    border: 2px solid white;
+}
+.images{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image1{
+    height: 300px;
+    width: 380px;
+    background-image: url(decor\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#h{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: lighter;
+}
+.image2{
+    height: 300px;
+    width: 380px;
+    background-image: url(makeup\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.image3{
+    height: 300px;
+    width: 380px;
+    background-image: url(sofa\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.image4{
+    height: 300px;
+    width: 380px;
+    background-image: url(kitchen\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.image5{
+    height: 300px;
+    width: 380px;
+    background-image: url(electronic\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.image6{
+    height: 300px;
+    width: 380px;
+    background-image: url(shoes\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.image7{
+    height: 300px;
+    width: 380px;
+    background-image: url(jewellery\ main.png);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+footer{
+    width: 100vw;
+    background-color: #0a2239;
+    height: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: #132e32;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.head{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: lighter;
+    margin: 5px;
+}
+.ilink{
+    position: relative;
+    top: 15px;
+    left: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: Blue;
+}
+.Home{
+    text-decoration: none;
+    color: white;
+}
+.decoreMain{
+    width: 25vw;
+    height: 2500px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.d1image{
+    background-image: url(decor\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.d2image{
+    background-image: url(decor\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.d3image{
+    background-image: url(decor\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.d4image{
+    background-image: url(decor\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.d5image{
+    background-image: url(decor\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.d6image{
+    background-image: url(decor\ 6.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.d7image{
+    background-image: url(decor\ 7.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.outerDiv{
+    display: inline-flex;
+    flex-wrap: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.od1{
+    background-color: white;
+    height: 300px;
+    width: 900px;
+    margin: 30px;
+    padding-top: 0px;
+}
+.od2{
+    background-color: white;
+    height: 290px;
+    width: 900px;
+    margin: 30px;
+    margin-top: 25px;
+}
+.od3{
+    background-color: white;
+    height: 300px;
+    width: 900px;
+    margin: 30px;
+}
+.od4{
+    background-color: white;
+    height: 290px;
+    width: 900px;
+    margin: 30px;
+    margin-top: 15px;
+}
+.od5{
+    background-color: white;
+    height: 300px;
+    width: 900px;
+    margin: 30px;
+}
+.od6{
+    background-color: white;
+    height: 290px;
+    width: 900px;
+    margin: 30px;
+    margin-top: 20px;
+}
+.od7{
+    background-color: white;
+    height: 300px;
+    width: 900px;
+    margin: 30px;
+}
+.text{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    top: -250px;
+    padding:7px;
+    font-weight: normal;
+}
+.price{
+    position: relative;
+    top: -120px;
+    color: #132e32;
+    font-weight: normal;
+}
+.makeupMain{
+    width: 25vw;
+    height: 2500px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.m1{
+    background-image: url(makeup\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m2{
+    background-image: url(makeup\ 2.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m3{
+    background-image: url(makeup\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m4{
+    background-image: url(makeup\ 4.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m5{
+    background-image: url(makeup\ 5.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m6{
+    background-image: url(makeup\ 6.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.m7{
+    background-image: url(makeup\ 7.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.homeDecoreMain{
+    width: 25vw;
+    height: 2000px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hd1{
+    background-image: url(sofa\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.hd2{
+    background-image: url(sofa\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.hd3{
+    background-image: url(sofa\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.hd4{
+    background-image: url(sofa\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.hd5{
+    background-image: url(sofa\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+#text2{
+    margin-top: 57px;
+}
+#text3{
+    margin-top: 75px;
+}
+#text4{
+    margin-top: 120px;
+}
+#text5{
+    margin-top: 155px;
+}
+.k1{
+    background-image: url(k\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k2{
+    background-image: url(k\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k3{
+    background-image: url(k\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k4{
+    background-image: url(k\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k5{
+    background-image: url(sofa\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k6{
+    background-image: url(k\ 6.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k7{
+    background-image: url(k\ 7.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.k8{
+    background-image: url(k\ 8.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.kitchenMain{
+    width: 25vw;
+    height: 2850px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#ktext{
+    top: -90%;
+}
+.ElectronicMain{
+    width: 25vw;
+    height: 2000px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.e1{
+    background-image: url(e\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.e2{
+    background-image: url(e\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.e3{
+    background-image: url(e\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.e4{
+    background-image: url(e\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.e5{
+    background-image: url(e\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.shoesMain{
+    width: 25vw;
+    height: 2850px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.s1{
+    background-image: url(shoe\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s2{
+    background-image: url(shoe\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s3{
+    background-image: url(shoe\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s4{
+    background-image: url(shoe\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s5{
+    background-image: url(shoe\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s6{
+    background-image: url(shoe\ 6.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s7{
+    background-image: url(shoe\ 7.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.s8{
+    background-image: url(shoe\ 8.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.jewelleryMain{
+    width: 25vw;
+    height: 4000px;
+    display: inline-flex;
+    flex-wrap:inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.j1{
+    background-image: url(j\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j2{
+    background-image: url(j\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j3{
+    background-image: url(j\ 3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j4{
+    background-image: url(j\ 4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j5{
+    background-image: url(j\ 5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j6{
+    background-image: url(j\ 6.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j7{
+    background-image: url(j\ 7.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j8{
+    background-image: url(j\ 8.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j9{
+    background-image: url(j\ 9.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j10{
+    background-image: url(j\ 10.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+.j11{
+    background-image: url(j\ 11.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+#jtext4{
+    margin-top: 37px;   
+}
+#jtext5{
+    margin-top: 47px;
+}
+#jtext6{
+    margin-top: 50px;
+}
+#jtext7{
+    margin-top: 54px;
+}
+#jtext8{
+    margin-top: 55px;
+}
+#jtext9{
+    margin-top: 55px;
+}
+#jtext10{
+    margin-top: 55px;
+}
+#jtext11{
+    margin-top: 55px;
+}
+.mainHeading{
+    font-weight: lighter;
+}
+.item{
+    background-color: grey;
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+    height: 38px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    top: -166px;
+    right: -150px;
+}
+.item:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.cart-quantity{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: -50px;
+}
+.sign-in-bg{
+    background-image: url(sofa\ 3.png);
+    background-size: cover;
+}
+.sign-in-link{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.sign-in-link:hover{
+    border: none;
+}
+.div1{
+    height: 550px;
+    width: 40vw;
+    position: relative;
+    background-color:rgba(19, 46, 50, 0.5);
+    left: 340px;
+    border-radius: 40px;
+    padding: 64px;
+    backdrop-filter: blur(10px);
+}
+.username{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#username{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+}
+.signup-heading{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.password{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#password{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+}
+#username:hover{
+    border: 2px solid orange;
+}
+#password:hover{
+    border: 2px solid orange;
+}
+.sign-btn{
+    background-color: rgb(12, 148, 206);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+}
+.sign-btn:hover{
+    background-color: orange;
+}
+.acc-login{
+    font-size: 18px;
+    position: relative;
+    right: -120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.email{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#email{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+}
+#email:hover{
+    border: 2px solid orange;
+}
+.div2{
+    height: 500px;
+    width: 40vw;
+    position: relative;
+    background-color:rgba(19, 46, 50, 0.5);
+    left: 340px;
+    border-radius: 40px;
+    padding: 64px;
+    backdrop-filter: blur(10px);
+}
+.cartText a{
+    text-decoration: none;
+    color: white;
+}
